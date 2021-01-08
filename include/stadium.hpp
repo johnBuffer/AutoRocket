@@ -138,7 +138,6 @@ struct Stadium
 		r.update(dt, update_smoke);
 		r.alive = checkAlive(r, tolerance_margin);
 		// Fitness stuffs
-
 		const float jerk_malus = std::abs(r.last_power - r.thruster.power);
 		const float move_malus = 0.1f * getLength(r.velocity * dt);
 		r.fitness += 10.0f * jerk_malus / (1.0f + to_target_dist);
