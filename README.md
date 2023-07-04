@@ -4,14 +4,13 @@ This is a project that uses genetic algorithms to train rockets to reach a targe
 
 # Installation
 
-## Prerequisites
+## Prerequisites
 
 In order to compile this project you will need to:
+ - have [SFML](https://www.sfml-dev.org/index.php) installed on your system. If you don't know how to do it see [this link](https://www.sfml-dev.org/tutorials/2.5/#getting-started).
+ - have [CMake](https://cmake.org/) installed
 
-- have SFML installed on your system. If you don't know how to do it see this link.
-- have CMake installed
-
-## Compilation
+## Compilation
 
 Then you can clone this repository and run the following commands:
 
