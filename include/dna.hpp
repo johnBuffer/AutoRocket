@@ -3,7 +3,9 @@
 #include <vector>
 #include <iostream>
 #include <bitset>
+#include <cstring>
 #include "number_generator.hpp"
+#include "utils.hpp"
 
 
 constexpr float MAX_RANGE = 10.0f;

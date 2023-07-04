@@ -127,8 +127,8 @@ struct Stadium
 			to_target.y,
 			r.velocity.x * dt,
 			r.velocity.y * dt,
-			cos(r.angle),
-			sin(r.angle),
+			static_cast<float>(cos(r.angle)),
+			static_cast<float>(sin(r.angle)),
 			r.angular_velocity * dt
 		};
 		// The actual update
