@@ -1,5 +1,5 @@
 #pragma once
-
+#include "utils.hpp"
 #include <vector>
 #include <iostream>
 #include <bitset>
